@@ -23,7 +23,7 @@ void setup() {
      WiFi.begin (WIFI_SSID, WIFI_PASSWORD);
         while (WiFi.status() != WL_CONNECTED) {
            delay(500);
-            Serial.print(".");
+            Serial.print("CONNECTION ERROR...");
   
          }
           Serial.println ("");
